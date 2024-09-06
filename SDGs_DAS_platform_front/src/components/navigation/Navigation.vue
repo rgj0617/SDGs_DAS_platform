@@ -51,14 +51,11 @@ const router = useRouter();
 
 const activeIndex = ref('home')
 const handleSelect = (key: string, _keyPath: string[]) => {
-  // console.log(key, keyPath)
   let route = "/" + key;
   router.push(route);
 }
 
-// const isActive = (page: string) => {
-//   return router.currentRoute.value.matched[0].name === page;
-// };
+
 
 </script>
   
